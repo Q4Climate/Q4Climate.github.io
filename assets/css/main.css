@@ -3128,7 +3128,7 @@
 			}
 
 		#header .logo {
-			font-family: 'Pacifico', cursive;
+			font-family: FontAwesome;
 			display: inline-block;
 			height: inherit;
 			left: 0;
@@ -3365,7 +3365,7 @@
 		color: #f2a3a5;
 		padding: 13em 0 11em 0;
 		background-color: #0c0c0c;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/Icy_Landscape.jpg");
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: 15% left;
@@ -3579,28 +3579,28 @@
 		padding: 4em 0 2em 0;
 	}
 
-	#one {
-		padding: 6em 0 4em 0;
+	#description {
+		padding: 6em 0 2em 0;
 	}
 
 		@media screen and (max-width: 980px) {
 
-			#one {
-				padding: 4em 0 2em 0;
+			#description {
+				padding: 2em 0 2em 0;
 			}
 
 		}
 
 		@media screen and (max-width: 736px) {
 
-			#one {
+			#description {
 				padding: 2em 0 0.1em 0;
 			}
 
 		}
 
-	#two {
-		padding: 6em 0 4em 0;
+	#actions {
+		padding: 2em 0 2em 0;
 		background: #f3f3f3;
 		background: -moz-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
 		background: -webkit-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
@@ -3608,7 +3608,7 @@
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#f7f7f7',GradientType=1 );
 	}
 
-		#two .inner {
+		#actions .inner {
 			display: -ms-flexbox;
 			display: -moz-flex;
 			display: -webkit-flex;
@@ -3620,21 +3620,21 @@
 			flex-direction: row;
 		}
 
-			#two .inner article {
+			#actions .inner article {
 				width: 50%;
 			}
 
-				#two .inner article:first-child {
+				#actions .inner article:first-child {
 					padding-right: 6em;
 				}
 
-				#two .inner article:last-child {
+				#actions .inner article:last-child {
 					padding-left: 6em;
 				}
 
 		@media screen and (max-width: 980px) {
 
-			#two {
+			#actions {
 				padding: 4em 0 2em 0;
 				background: -moz-linear-gradient(top, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
 				background: -webkit-linear-gradient(top, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
@@ -3642,23 +3642,23 @@
 				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#f7f7f7',GradientType=0 );
 			}
 
-				#two .inner {
+				#actions .inner {
 					-moz-flex-direction: column;
 					-webkit-flex-direction: column;
 					-ms-flex-direction: column;
 					flex-direction: column;
 				}
 
-					#two .inner article {
+					#actions .inner article {
 						width: 100%;
 					}
 
-						#two .inner article:first-child {
+						#actions .inner article:first-child {
 							padding-right: 0;
 							padding-bottom: 2em;
 						}
 
-						#two .inner article:last-child {
+						#actions .inner article:last-child {
 							padding-left: 0;
 							padding-top: 2em;
 						}
@@ -3667,17 +3667,26 @@
 
 		@media screen and (max-width: 736px) {
 
-			#two {
+			#actions {
 				padding: 2em 0 0.1em 0;
 			}
 
 		}
 
-	#three {
-		padding: 6em 0 4em 0;
+	#involvement {
+		padding: 2em 0 2em 0;
 	}
 
-		#three .inner {
+		#involvement .outer {
+			padding-left: 15em;
+			display: -ms-flexbox;
+			-moz-flex-direction: column;
+			-webkit-flex-direction: column;
+			-ms-flex-direction: column;
+			flex-direction: column;
+		}
+
+		#involvement .inner {
 			display: -ms-flexbox;
 			display: -moz-flex;
 			display: -webkit-flex;
@@ -3694,30 +3703,30 @@
 			-ms-flex-pack: justify;
 		}
 
-			#three .inner article {
+			#involvement .inner article {
 				width: 26%;
 				display: block;
 			}
 
-				#three .inner article p {
+				#involvement .inner article p {
 					color: #717171;
 				}
 
-				#three .inner article .icon {
+				#involvement .inner article .icon {
 					color: #b3b3b3;
 					font-size: 3em;
 				}
 
 			@media screen and (max-width: 980px) {
 
-				#three .inner {
+				#involvement .inner {
 					-moz-flex-direction: column;
 					-webkit-flex-direction: column;
 					-ms-flex-direction: column;
 					flex-direction: column;
 				}
 
-					#three .inner article {
+					#involvement .inner article {
 						width: 100%;
 						margin: 0 auto;
 					}
@@ -3726,7 +3735,7 @@
 
 		@media screen and (max-width: 980px) {
 
-			#three {
+			#involvement {
 				padding: 4em 0 2em 0;
 			}
 
@@ -3734,7 +3743,7 @@
 
 		@media screen and (max-width: 736px) {
 
-			#three {
+			#involvement {
 				padding: 2em 0 0.1em 0;
 			}
 
