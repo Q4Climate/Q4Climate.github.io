@@ -1535,7 +1535,10 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info {
-  width: 100%;
+  /* display: flex; */
+  /* width: 100%; */
+  /* position: relative; */
+  /* overflow: hidden; */
   background: #fff;
 }
 
@@ -1569,10 +1572,15 @@ section {
 }
 
 .contact .info .email, .contact .info .phone {
-  margin-top: 40px;
+  margin-top: 0px;
 }
 
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+.contact .info .twitter {
+  margin-top: 0px;
+  margin-left: 100px;
+}
+
+.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i, .contact .info .twitter:hover i {
   background: #2487ce;
   color: #fff;
 }
