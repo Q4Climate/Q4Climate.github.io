@@ -262,7 +262,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Get Startet Button */
+/* Get Started Button */
 .get-started-btn {
   margin-left: 25px;
   background: #2487ce;
@@ -283,6 +283,32 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   .get-started-btn {
+    margin: 0 48px 0 0;
+    padding: 5px 18px 6px 18px;
+    border-radius: 3px;
+  }
+}
+
+.access-document-btn {
+  margin-left: 25px;
+  background: #F25F5C;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 30px 11px 30px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.access-document-btn:hover {
+  background: #ee7775;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .access-document-btn {
     margin: 0 48px 0 0;
     padding: 5px 18px 6px 18px;
     border-radius: 3px;
@@ -456,6 +482,24 @@ h1, h2, h3, h4, h5, h6 {
   background: #3194db;
 }
 
+#hero .btn-access-document {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 14px 50px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: #F25F5C;
+}
+
+#hero .btn-access-document:hover {
+  background: #ee7775;
+}
+
 #hero .icon-boxes {
   margin-top: 100px;
 }
@@ -577,6 +621,18 @@ section {
   margin-bottom: 20px;
   padding-bottom: 0;
   color: #2487ce;
+}
+
+.section-subtitle h3{
+  background: #F25F5C;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 30px 11px 30px;
+  white-space: nowrap;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .section-subtitle p{
@@ -932,9 +988,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# workflow
 --------------------------------------------------------------*/
-.services .icon-box {
+.workflow .icon-box {
   text-align: center;
   padding: 30px 15px 25px 15px;
   transition: all ease-in-out 0.3s;
@@ -943,7 +999,7 @@ section {
   flex:1 ;
 }
 
-.services .icon-box .icon {
+.workflow .icon-box .icon {
   margin: 0 auto;
   width: 100px;
   height: 100px;
@@ -954,121 +1010,139 @@ section {
   position: relative;
 }
 
-.services .icon-box .icon i {
+.workflow .icon-box .icon i {
   font-size: 36px;
   transition: 0.5s;
   position: relative;
 }
 
-.services .icon-box .icon svg {
+.workflow .icon-box .icon svg {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.services .icon-box .icon svg path {
+.workflow .icon-box .icon svg path {
   transition: 0.5s;
   fill: #f5f5f5;
 }
 
-.services .icon-box h4 {
+.workflow .icon-box h4 {
   font-weight: 600;
   margin: 10px 0 15px 0;
   font-size: 22px;
 }
 
-.services .icon-box h4 a {
+.workflow .icon-box h4 a {
   color: #124265;
   transition: ease-in-out 0.3s;
 }
 
-.services .icon-box p {
+.workflow .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.services .icon-box:hover {
+.workflow .icon-box:hover {
   border-color: #fff;
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
 }
 
-.services .iconbox-blue i {
+.workflow .iconbox-blue i {
   color: #47aeff;
 }
 
-.services .iconbox-blue:hover .icon i {
+.workflow .iconbox-blue:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-blue:hover .icon path {
+.workflow .iconbox-blue:hover .icon path {
   fill: #47aeff;
 }
 
-.services .iconbox-orange i {
+.workflow .iconbox-orange i {
   color: #ffa76e;
 }
 
-.services .iconbox-orange:hover .icon i {
+.workflow .iconbox-orange:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-orange:hover .icon path {
+.workflow .iconbox-orange:hover .icon path {
   fill: #ffa76e;
 }
 
-.services .iconbox-pink i {
+.workflow .iconbox-pink i {
   color: #e80368;
 }
 
-.services .iconbox-pink:hover .icon i {
+.workflow .iconbox-pink:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-pink:hover .icon path {
+.workflow .iconbox-pink:hover .icon path {
   fill: #e80368;
 }
 
-.services .iconbox-yellow i {
+.workflow .iconbox-yellow i {
   color: #ffbb2c;
 }
 
-.services .iconbox-yellow:hover .icon i {
+.workflow .iconbox-yellow:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-yellow:hover .icon path {
+.workflow .iconbox-yellow:hover .icon path {
   fill: #ffbb2c;
 }
 
-.services .iconbox-red i {
+.workflow .iconbox-red i {
   color: #ff5828;
 }
 
-.services .iconbox-red:hover .icon i {
+.workflow .iconbox-red:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-red:hover .icon path {
+.workflow .iconbox-red:hover .icon path {
   fill: #ff5828;
 }
 
-.services .iconbox-teal i {
+.workflow .iconbox-teal i {
   color: #11dbcf;
 }
 
-.services .iconbox-teal:hover .icon i {
+.workflow .iconbox-teal:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-teal:hover .icon path {
+.workflow .iconbox-teal:hover .icon path {
   fill: #11dbcf;
 }
 
-.services .icon-box .writing {
+.workflow .icon-box .writing {
   width: 100%;
 }
 
+#workflow .btn-access-document {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 14px 50px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #fff;
+  background: #F25F5C;
+}
+
+#workflow .btn-access-document:hover {
+  background: #ee7775;
+}
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
